@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;font-family:Inter,sans-serif;display:grid;grid-template-columns:360px 1fr;background:#0F172A}
+aside{color:#E2E8F0;padding:24px}
+.logo{font-weight:700;font-size:20px;margin-bottom:24px}
+.step{display:flex;gap:12px;align-items:center;padding:10px 12px;border-radius:8px;font-size:15px;margin-bottom:4px}
+.step.on{background:#1E293B}.step i{width:10px;height:10px;border-radius:50%;background:#3B82F6}
+.step.todo i{background:#475569}
+h4{font-size:12px;color:#94A3B8;margin:22px 0 10px}
+.f{background:#1E293B;border-radius:10px;padding:12px;margin-bottom:8px;font-size:14px}
+.f small{display:block;color:#94A3B8;margin-top:4px}
+.map{position:relative;background:#E2E8F0}
+.blob{position:absolute;inset:80px 200px 300px 220px;border-radius:45%;background:radial-gradient(#3B82F6,#93C5FD 50%,transparent 70%);opacity:.8}
+.drawer{position:absolute;left:24px;right:24px;bottom:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:#fff;border-radius:14px;padding:18px;box-shadow:0 4px 20px rgba(0,0,0,.1)}
+.card b{font-size:16px}.card .k{font-size:34px;font-weight:700;color:#1D4ED8;margin:8px 0 2px}
+.card small{font-size:13px;color:#64748B}
+.btn{position:absolute;top:24px;right:24px;background:#3B82F6;color:#fff;font-weight:600;padding:10px 18px;border-radius:8px}
+</style></head><body>
+<aside><div class="logo">Siteline</div>
+<div class="step"><i></i>Understand the business</div><div class="step"><i></i>Reason about factors</div><div class="step on"><i></i>Approve the data plan</div><div class="step todo"><i></i>Score Houston</div><div class="step todo"><i></i>Rank real spaces</div>
+<h4>FACTORS</h4><div class="f">Renters nearby<small>In our data · High</small></div><div class="f">Few laundromats nearby<small>Found · OpenStreetMap</small></div><div class="f">Households without a car<small>In our data · Medium</small></div></aside>
+<section class="map"><div class="blob"></div><div class="btn">Approve plan</div>
+<div class="drawer"><div class="card"><b>1 · 1200 Example Blvd</b><div class="k">25,070</div><small>renter households in reach · $3.59 rent each</small></div>
+<div class="card"><b>2 · 88 Sample Pkwy</b><div class="k">23,817</div><small>renter households in reach · $2.80 rent each</small></div>
+<div class="card"><b>3 · 410 Demo Rd</b><div class="k">22,684</div><small>renter households in reach · $2.58 rent each</small></div></div></section>
+</body></html>

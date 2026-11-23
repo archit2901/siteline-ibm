@@ -1,0 +1,60 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Siteline" [ref=e5] [cursor=pointer]:
+      - /url: "#/"
+    - generic [ref=e18]: laundromat
+    - generic [ref=e9]: "Demo: offline"
+    - button "New search" [ref=e19] [cursor=pointer]
+    - link "Developer view" [ref=e10] [cursor=pointer]:
+      - /url: "#/dev"
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - heading "I need your OK" [level=1] [ref=e80]
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - paragraph [ref=e31]: Load the practice profile
+        - listitem [ref=e32]:
+          - generic [ref=e34]:
+            - paragraph [ref=e35]: Working out what makes a location succeed for you
+            - paragraph [ref=e36]: 9 things matter for your business.
+        - listitem [ref=e37]:
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: Finding public data to measure it
+            - paragraph [ref=e85]: "Found: Families without a car, Few pediatric dentists nearby, Schools nearby."
+        - listitem [ref=e41]:
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Your OK on the data
+            - paragraph [ref=e86]: Waiting for you below.
+        - listitem [ref=e45]:
+          - paragraph [ref=e48]: Your OK on what matters most
+        - listitem [ref=e49]:
+          - paragraph [ref=e52]: Looking for spaces for lease in the best neighborhoods
+        - listitem [ref=e53]:
+          - paragraph [ref=e56]: Ranking spaces by the customers you would win
+        - listitem [ref=e57]:
+          - paragraph [ref=e60]: Double-checking every number
+      - region "Can I use this data?" [ref=e87]:
+        - heading "Can I use this data?" [level=2] [ref=e88]
+        - paragraph [ref=e89]: "To measure what matters for your business, I'd like to use Houston METRO GTFS feed (stops.txt), NPPES NPI Registry: pediatric dentistry (1223P0221X), TEA school directory and OpenStreetMap schools (amenity=school) via Overpass. Nothing is downloaded until you say yes."
+        - button "Yes, use it" [active] [ref=e91] [cursor=pointer]
+    - generic [ref=e61]:
+      - generic "Map of Houston scored by H3 hexagon" [ref=e62]:
+        - region "Map" [ref=e63]
+        - generic:
+          - generic [ref=e64]:
+            - button "Zoom in" [ref=e65] [cursor=pointer]
+            - button "Zoom out" [ref=e67] [cursor=pointer]
+          - group [ref=e69]:
+            - generic "Toggle attribution" [ref=e70] [cursor=pointer]
+            - generic [ref=e71]:
+              - text: ©
+              - link "OpenStreetMap" [ref=e72] [cursor=pointer]:
+                - /url: https://www.openstreetmap.org/copyright
+              - text: contributors ©
+              - link "CARTO" [ref=e73] [cursor=pointer]:
+                - /url: https://carto.com/about-carto/
+      - generic [ref=e74]:
+        - generic [ref=e75]: People per km²
+        - generic [ref=e77]:
+          - generic [ref=e78]: Lower
+          - generic [ref=e79]: Higher

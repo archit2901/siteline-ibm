@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;font-family:Barlow,sans-serif;background:#E9ECF0;color:#1C2430}
+header{height:60px;background:#1C2430;color:#fff;display:flex;align-items:center;padding:0 28px;gap:24px}
+.logo{font-family:'Barlow Condensed';font-weight:800;font-size:26px;letter-spacing:.02em}
+.sp{flex:1}.tab{font-weight:600;opacity:.7}.tab.on{opacity:1;border-bottom:3px solid #FFD400;padding-bottom:4px}
+main{display:grid;grid-template-columns:1fr 520px;height:840px}
+.map{position:relative;background:#D5DAE1}
+.ring{position:absolute;border:3px dashed #0B5CAD;border-radius:50%}
+.r1{width:220px;height:220px;left:390px;top:300px}.r2{width:420px;height:420px;left:290px;top:200px}.r3{width:640px;height:640px;left:180px;top:90px}
+.site{position:absolute;left:470px;top:380px;width:60px;height:60px;background:#FFD400;border:4px solid #1C2430}
+.pin{position:absolute;width:30px;height:30px;border-radius:50%;background:#1C2430;color:#FFD400;font-weight:800;display:flex;align-items:center;justify-content:center}
+.sheet{background:#fff;padding:28px 32px;overflow:hidden}
+.badge{display:inline-block;background:#FFD400;font-family:'Barlow Condensed';font-weight:800;font-size:18px;padding:4px 12px;letter-spacing:.06em}
+h1{font-family:'Barlow Condensed';font-weight:800;font-size:46px;line-height:1;margin:14px 0 4px}
+.sub{font-size:18px;color:#556}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:3px solid #1C2430;border-bottom:1px solid #CCD;margin:20px 0}
+.facts div{padding:12px 0}.facts b{display:block;font-family:'Barlow Condensed';font-size:30px}.facts span{font-size:14px;color:#667}
+table{width:100%;border-collapse:collapse;font-size:17px}
+th{text-align:left;font-family:'Barlow Condensed';font-size:18px;background:#1C2430;color:#fff;padding:8px 10px}
+td{padding:9px 10px;border-bottom:1px solid #DDE}
+td.n{text-align:right;font-weight:600}
+.claim{margin-top:18px;font-size:16px;border-left:5px solid #FFD400;padding-left:12px}
+.list{margin-top:18px;display:flex;gap:8px}.list span{border:2px solid #1C2430;padding:6px 12px;font-weight:600}.list .on{background:#1C2430;color:#fff}
+</style></head><body>
+<header><div class="logo">SITELINE</div><div class="tab on">Example Laundromat</div><div class="tab">Factors</div><div class="tab">Data plan</div><div class="sp"></div><div class="tab">Recorded run</div></header>
+<main>
+<section class="map"><div class="ring r3"></div><div class="ring r2"></div><div class="ring r1"></div><div class="site"></div>
+<div class="pin" style="left:700px;top:250px">2</div><div class="pin" style="left:280px;top:560px">3</div><div class="pin" style="left:760px;top:600px">4</div></section>
+<section class="sheet"><span class="badge">AVAILABLE · RANK 1</span>
+<h1>1200 Example Blvd</h1><div class="sub">Retail · CoStar submarket 4310 · Houston, TX</div>
+<div class="facts"><div><b>3,600</b><span>sq ft</span></div><div><b>$25.00</b><span>per sq ft / yr</span></div><div><b>1</b><span>floor</span></div><div><b>30</b><span>parking</span></div></div>
+<table><tr><th>Within reach</th><th style="text-align:right">Neighborhood trip</th></tr>
+<tr><td>Renter households in reach</td><td class="n">25,070</td></tr>
+<tr><td>Households without a car</td><td class="n">3,912</td></tr>
+<tr><td>Laundromats nearby</td><td class="n">4</td></tr>
+<tr><td>Rent per household won</td><td class="n">$3.59</td></tr></table>
+<p class="claim">About 25,070 renter households in reach would pick this site over competitors and your other locations.</p>
+<div class="list"><span class="on">1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div>
+</section></main></body></html>
