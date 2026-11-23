@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+web/node_modules/
+web/dist/
+data/
+runs/
+*.db
+.claude/
+.playwright-mcp/
+.impeccable/
+.pytest_cache/
+prompts/
